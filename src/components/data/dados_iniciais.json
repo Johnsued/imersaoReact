@@ -3,7 +3,7 @@
     {
       "titulo": "Top Watched",
       "link": "https://www.netflix.com/br/title/80100172",
-      "cor": "#00ff0080",
+      "cor": "background: none;",
       "link_extra": {
         "text": "",
         "url": ""
@@ -41,7 +41,7 @@
     },
     {
       "titulo": "Tv Shows",
-      "cor": "#00C86F",
+      "cor": "background: none;",
       "link_extra": {
         "text": "",
         "url": ""
@@ -71,7 +71,7 @@
     },
     {
       "titulo": "O que vem logo ae óh!",
-      "cor": "#9cd33b",
+      "cor": "background: none;",
       "link_extra": {
         "text": "",
         "url": ""
@@ -97,7 +97,7 @@
     },
     {
       "titulo": "Filmes",
-      "cor": "orange",
+      "cor": "background: none;",
       "videos": [
         {
           "titulo": "Interestellar",
