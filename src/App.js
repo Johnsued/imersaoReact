@@ -7,13 +7,13 @@ import Carrocel from './components/Carousel';
 
 function App() {
   return (
-    <div>
+    <div style={{ background: 'black' }}>
      <Menu />
 
      <BannerMain 
       videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
       url={dadosIniciais.categorias[0].videos[0].url}
-      videoDescription={"O que faz uma desenvolvedora front-end? #HipstersPontoTube"}
+      videoDescription={"Estrelando: Louis Hofmann,Oliver Masucci,Jördis Triebel"}
      />
 
      <Carrocel
