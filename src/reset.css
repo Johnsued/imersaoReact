@@ -26,6 +26,5 @@ a {
 
 #root {
   min-height: calc(100vh - var(--bodyPaddingTop));
-  border: 5px solid orange;
   flex-direction:column;
 }
