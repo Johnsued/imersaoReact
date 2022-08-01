@@ -1,11 +1,11 @@
 import React from 'react';
-import Menu from './components/Menu';
-import dadosIniciais from './components/data/dados_iniciais.json';
-import BannerMain from './components/BannerMain';
-import Carrocel from './components/Carousel';
-//import Footer from './components/Footer';
+import Menu from '../../Menu';
+import dadosIniciais from '../../data/dados_iniciais.json';
+import BannerMain from '../../BannerMain';
+import Carrocel from '../../Carousel';
+import Footer from '../../Footer';
 
-function App() {
+function Home() {
   return (
     <div style={{ background: 'black' }}>
      <Menu />
@@ -29,9 +29,10 @@ function App() {
      <Carrocel
         category={dadosIniciais.categorias[3]}
      />
+     <Footer/>
 
     </div>
   );
 }
 
-export default App;
+export default Home;
