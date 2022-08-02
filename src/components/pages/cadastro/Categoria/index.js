@@ -46,6 +46,7 @@ function CadastroCategoria() {
       }}>
 
       <FormField 
+        label="Nome da Categoria"
         type="text"
         name="nome"
         value={values.nome}
@@ -65,6 +66,7 @@ function CadastroCategoria() {
         </div>
 
         <FormField 
+         label="Cor"
         type="color"
         name="cor"
         value={values.cor}
